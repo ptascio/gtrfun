@@ -1,3 +1,30 @@
+/*body {
+
+  background-size: 1722px 1459px;
+  background-repeat:no-repeat;
+  opacity: 0.5;
+}*/
+
+
+#main {
+   position: relative;
+}
+#main:after {
+    content : "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url('./imgs/gtrs.jpg');
+    background-size: 1722px 1459px;
+    background-repeat:no-repeat;
+    width: 1722px;
+    height: 1459px;
+    opacity : 0.5;
+    z-index: -1;
+}
+
+
 h1 {
   font-family: 'Varela', sans-serif;
 }
