@@ -1,3 +1,7 @@
 h1 {
   font-family: 'Varela', sans-serif;
 }
+
+.bio-intro {
+  line-height: 2;
+}
